@@ -8,7 +8,7 @@ title_description: "A dark blog theme for Jekyll focusing on a clear reading exp
 title_image: "./favicons/headpic.jpg"
 google_analytics: "UA-20365477-4"
 disqus_account: Kcetry
-github_repository: https://github.com/jacobtomlinson/carte-noire
+github_repository: https://github.com/Kcetry
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
@@ -21,7 +21,7 @@ stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/Kcetry\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: redcarpet
