@@ -2,7 +2,7 @@
 layout:     post
 title:      Genetic Algorithm (JS achieve)
 date:       2015-12-5 12:31:19
-summary:    See what the different elements looks like.
+description: How to achieve Genetic Algorithm with javascript
 categories: jekyll
 thumbnail: cogs
 tags:
@@ -12,7 +12,7 @@ tags:
  - noire
 ---
 
-#####This is 
+#####This is it
 ```javascript
 //移除数组元素
 Array.prototype.remove = function(dx) { 

@@ -1,14 +1,19 @@
-<nav id="my-menu">
-  <div>
-    <p>{{ site.title }}</p>
+<html lang="en">
 
-    <ul class="pages">
-      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
-      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i> Search</a></li>
-    </ul>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.name }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="{{site.baseurl | prepend:site.url}}/js/jquery.min.js"></script>
+  <script src="{{site.baseurl | prepend:site.url}}/js/bootstrap.min.js"></script>
+  <script src="{{site.baseurl | prepend:site.url}}/js/header.js"></script>
+  <script src="{{site.baseurl | prepend:site.url}}/js/toc.js"></script>
+  <link href="{{site.baseurl | prepend:site.url}}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{site.baseurl | prepend:site.url}}/css/theme.css" rel="stylesheet">
+  <link href="{{site.baseurl | prepend:site.url}}/css/syntax.css" rel="stylesheet">
+  <link href="{{site.baseurl | prepend:site.url}}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-    {% include social_links.html %}
-  </div>
-</nav>
-<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
+<body>
+
+
